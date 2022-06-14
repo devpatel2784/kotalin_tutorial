@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         val diceImage :ImageView = findViewById(R.id.image_dice)
         diceImage.setImageResource(drawableResours)
 
+        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show()
 
 
 
